@@ -35,7 +35,7 @@
   
 ### Find out how to do the following
   - Stash and pop your changes
-  - Create append three new lines to notes.txt commit each line as a separate commit
+  - Append three new lines to notes.txt commit each line as a separate commit using `git add -p`
   - Use `git rebase -i` to rearrenge the order of the currently created commits
   - Use `git rebase -i` to delete one of the commits
   - Delete one commit *whithout* using git rebase -i
