@@ -1,4 +1,4 @@
-# Utvecklingsverktyg
+# Utvecklingsverktyg Git
 
 ### Setup git
 - Create new dev branch
