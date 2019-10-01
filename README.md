@@ -11,7 +11,7 @@
   
 - Add a new file under myfirstnameMylastname folder
 
-  ´touch notes.txt`
+  `touch notes.txt`
   
 - Add folder to git
 
