@@ -33,10 +33,12 @@
 
   `git diff`
   
-### Find out how to do the following
+### Find out how to do the following and write the commands/answers in a text file.
   - Stash and pop your changes
   - Append three new lines to notes.txt commit each line as a separate commit using `git add -p`
   - Use `git rebase -i` to rearrenge the order of the currently created commits
   - Use `git rebase -i` to delete one of the commits
   - Delete one commit *whithout* using git rebase -i
   - Find out what is git reflog and why has it saved developers so many times?
+  - Create an account on github.com
+  - Create a new repository and push the answers to that repository
