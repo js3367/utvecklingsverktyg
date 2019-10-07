@@ -8,11 +8,20 @@
 - Create new folder firstnameLastname
 
   `mkdir myfirstnameMylastname`
+
+- Cd into directory
+
+  `cd myfirstnameMylastname`
+
   
 - Add a new file under myfirstnameMylastname folder
 
   `touch notes.txt`
   
+- Move out of myfirstnameMylastname folder
+
+`cd ..`
+
 - Add folder to git
 
   `git add myfirstnameMylastname`
