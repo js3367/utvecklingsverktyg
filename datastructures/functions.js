@@ -30,7 +30,7 @@ const run = () => {
     // trying to access thisIsSoPrivate variable outside the function will trow an variable not defined exception
     console.log('try to write out secret variable:', thisIsSoPrivate)
     } catch(err) {
-        console.log('doo do do, can\'t touch this:', err.message)
+        console.log('doo do do do, can\'t touch this:', err.message)
     }
 
 }
