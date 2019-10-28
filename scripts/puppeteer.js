@@ -3,6 +3,7 @@
 const Promise = require('bluebird')
 
 const puppeteer = require('puppeteer')
+const moment = require('moment')
 
 const run = async () => {
   const browser = await puppeteer.launch()
@@ -15,10 +16,14 @@ const run = async () => {
         .map((el) => {
             return {
                 link: window.location.origin + $(el).attr('href'),
-                title: $(el).find('h1').text()
+                title: $(el).find('h1').text(),
+                timestamp: $(el).find('.yle__article__listItem__meta__published').attr('datetime')
             }
         })
   })
+
+  await page.screenshot({path: 'example.png'})
+  await page.pdf({path: 'yleuutiset.pdf', format: 'A4'})
 
   console.log(result)
 
